@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".comesoon"
+    android:background="#DFEFEB">
+
+    <Button
+        android:id="@+id/bck"
+        android:layout_width="317dp"
+        android:layout_height="64dp"
+        android:background="@drawable/butn_get_started"
+        android:fontFamily="@font/poppins_light"
+        android:text="back"
+        android:textColor="#FFFFFF"
+        android:textSize="18dp"
+        app:backgroundTint="#39ADC7"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.923" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/corner" />
+
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_light"
+        android:text="New Quizzes Are Coming !!!"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/bck"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.507" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="373dp"
+        android:layout_height="253dp"
+        android:fontFamily="@font/poppins_light"
+        android:text="Our goal here at Uws is to hel pour students achieve thier goals. With our brand new quiz application you can now start studying quicker and easier than before, on the bus, on the train, supported by android mobile phone devices. We aim to continue the development on the app and bring you more classes, more quizzes and one day you will be able to compete with your class mates and compare scores"
+        android:textAlignment="center"
+        android:textColor="#8E8989"
+        android:textSize="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/bck"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/welcome" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="294dp"
+        android:layout_height="200dp"
+        app:layout_constraintBottom_toTopOf="@+id/welcome"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/ic_construction" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
